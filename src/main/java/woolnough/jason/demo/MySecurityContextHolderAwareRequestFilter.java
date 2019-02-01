@@ -18,6 +18,7 @@ public class MySecurityContextHolderAwareRequestFilter extends SecurityContextHo
 
     @Override
     public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws IOException, ServletException {
+        state.add("3");
         super.doFilter(req, res, chain);
     }
 }

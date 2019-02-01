@@ -15,6 +15,7 @@ public class MyRequestCacheAwareFilter extends RequestCacheAwareFilter {
 
     @Override
     public void doFilter(javax.servlet.ServletRequest req, javax.servlet.ServletResponse res, javax.servlet.FilterChain chain) throws IOException, ServletException {
+        state.add("2");
         super.doFilter(req, res, chain);
     }
 }

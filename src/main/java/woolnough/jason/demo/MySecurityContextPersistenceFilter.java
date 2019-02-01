@@ -18,6 +18,7 @@ public class MySecurityContextPersistenceFilter extends SecurityContextPersisten
 
     @Override
     public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws IOException, ServletException {
+        state.add("4");
         super.doFilter(req, res, chain);
     }
 }
