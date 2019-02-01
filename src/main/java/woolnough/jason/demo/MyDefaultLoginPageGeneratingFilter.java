@@ -8,7 +8,7 @@ import javax.servlet.ServletException;
 import java.io.IOException;
 import java.util.List;
 
-//@Component
+@Component
 public class MyDefaultLoginPageGeneratingFilter extends DefaultLoginPageGeneratingFilter {
     @Autowired
     List<String> state;

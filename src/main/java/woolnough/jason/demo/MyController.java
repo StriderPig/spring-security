@@ -9,9 +9,9 @@ import java.util.List;
 @RestController
 public class MyController {
     @Autowired
-    private List<String> state;
+    List<String> state;
 
-    @GetMapping
+    @GetMapping("/test")
     public String getString() {
         return String.join(" ", state);
     }

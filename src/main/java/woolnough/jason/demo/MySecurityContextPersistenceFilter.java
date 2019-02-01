@@ -11,7 +11,7 @@ import javax.servlet.ServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-//@Component
+@Component
 public class MySecurityContextPersistenceFilter extends SecurityContextPersistenceFilter {
     @Autowired
     List<String> state;

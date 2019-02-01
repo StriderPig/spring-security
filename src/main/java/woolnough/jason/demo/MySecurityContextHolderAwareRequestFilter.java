@@ -11,7 +11,7 @@ import javax.servlet.ServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-//@Component
+@Component
 public class MySecurityContextHolderAwareRequestFilter extends SecurityContextHolderAwareRequestFilter {
     @Autowired
     List<String> state;
