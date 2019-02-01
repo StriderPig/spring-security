@@ -1,6 +1,0 @@
-/home/jasonw/dev/demo/spring-security/src/main/java/woolnough/jason/demo/MySecurityContextHolderAwareRequestFilter.java
-/home/jasonw/dev/demo/spring-security/src/main/java/woolnough/jason/demo/MyController.java
-/home/jasonw/dev/demo/spring-security/src/main/java/woolnough/jason/demo/MyRequestCacheAwareFilter.java
-/home/jasonw/dev/demo/spring-security/src/main/java/woolnough/jason/demo/MyDefaultLoginPageGeneratingFilter.java
-/home/jasonw/dev/demo/spring-security/src/main/java/woolnough/jason/demo/App.java
-/home/jasonw/dev/demo/spring-security/src/main/java/woolnough/jason/demo/MySecurityContextPersistenceFilter.java
